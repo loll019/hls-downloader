@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# FFmpeg copiato nella cartella del programma (si installa a parte)
+ffmpeg.exe
+ffprobe.exe
+ffmpeg
+ffprobe
+
+# Video scaricati e cartelle temporanee dei download
+*.mp4
+*.ts
+*.srt
+*.mp4.download/
+
+# Impostazioni personali
+.hls_downloader.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
